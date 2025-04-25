@@ -1,0 +1,6 @@
+.o
+.out
+.vscode/
+.DS_Store
+program
+libmylib.dylib
