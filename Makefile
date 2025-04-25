@@ -1,5 +1,5 @@
 CXX = clang++
-CXXFLAGS = -std=c++17 -Wall -Wextra
+CXXFLAGS = -std=c++20
 TARGET = program
 LIBRARY = libmylib.dylib
 
