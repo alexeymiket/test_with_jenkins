@@ -48,7 +48,7 @@ int main(int argc, char* argv[]) {
     if (argc < 5) { // Проверяем, достаточно ли аргументов
         std::cerr << "Недостаточно аргументов.\n"; 
         print_help(); 
-        return EXIT_FAILURE; // Завершаем программу с ошибкой
+        exit(0);
     }
 
     std::string input_file; // Переменная для хранения имени входного файла
